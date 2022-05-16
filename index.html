@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>gruop and custom attributes selector </title>
+        <style>
+            h1,div,p{
+                color:purple;
+                text-align:center;
+            }
+            h1{
+                font-size:3em;
+                background-color: paleturquoise;
+            }
+            div,p{
+                font-size:2em;
+                background-color:pink
+            }
+            .a:hover{
+                color:white;
+                background-color:blue;
+            }
+            .o:hover{
+                color:white;
+                background-color:maroon;
+            }
+            body{
+                background-color:yellow
+            }
+            body:hover{
+                background-color:pink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="a">group selector</h1>
+        <div class="b o"><i>The grouping selector selects all the HTML elements with the same style</i> </div>
+        <p class="c o"> <i>It will be better to group the selectors, to minimize the code.</i></p>
+        <div><i>group selector is definded by a , (coma)</i></div>
+    </body>
+</html>
